@@ -1,4 +1,4 @@
-# RTK Query + msw
+# RTK Query + msw ![](https://github.com/gustavocd/rtkq-msw/workflows/rtkq-msw/badge.svg)
 
 App example about testing `http` calls using `RTK Query` and `msw`.
 
