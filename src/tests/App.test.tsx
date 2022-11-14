@@ -26,7 +26,6 @@ describe('App', function () {
   test('PokemonFinder should display an error when the request fail', async () => {
     server.use(
       rest.get('https://pokeapi.co/api/v2/pokemon/*', (_req, res, ctx) => {
-        console.log('this is something...')
         return res(ctx.status(500), ctx.json('an error has occurred'))
       }),
     )
